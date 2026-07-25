@@ -1,10 +1,9 @@
 name: SmartCraftWarehouse
-version: '1.4.2'
+version: '1.4.3'
 main: com.sagakenichi.smartcraft.SmartCraftWarehousePlugin
 api-version: '1.21'
 author: sagakenichi
-description: Search-only crafting and remote-storage GUI for Spigot 1.21.1
-
+description: SmartCraft GUI and owned material chest management for Spigot 1.21.1
 commands:
   sc:
     description: Opens the SmartCraft GUI
@@ -15,14 +14,10 @@ commands:
     description: Legacy SmartCraft command
     usage: /scraft
     permission: smartcraft.use
-
 permissions:
   smartcraft.use:
-    description: Allows use of SmartCraft commands and GUI
     default: true
   smartcraft.storage:
-    description: Allows storage management
     default: true
   smartcraft.admin:
-    description: Allows administrative SmartCraft operations
     default: op
