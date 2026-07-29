@@ -2,7 +2,7 @@ name: SmartCraftWarehouse
 version: '1.5.0'
 main: com.sagakenichi.smartcraft.SmartCraftWarehousePlugin
 api-version: '1.21'
-author: sagakenichi
+author: naokibot
 description: Japanese/English item search, favorites, recipe GUI, and owned material chest management for Spigot 1.21.1
 commands:
   sc:
