@@ -2,7 +2,7 @@ plugins {
     java
 }
 
-group = "com.sagakenichi"
+group = "com.naokibot"
 version = "1.5.0"
 
 repositories {
